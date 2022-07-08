@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>renovatebot/.github"
+    "github>renovatebot/.github", ":semanticCommitsDisabled"
   ],
   "peerDependencies": {
     "versionStrategy": "widen"
